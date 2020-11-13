@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mod2-Solution</title>
+<style>
+* {
+	box-sizing: border-box;
+}
+h1{
+	margin-bottom: 15px;
+}
+p{
+	border: 1px solid black;
+	background-color: gray;
+	padding:10%;
+	margin: 50px;
+	height: 200px;
+	width: 90%;
+	margin-top: 120px;
+	margin-left: 130px; 
+	font-family: Helvetica;
+	color: white;
+}
+.row{
+	width: 100%;
+}
+/***** Desktop device only *****/
+@media (min-width: 992px) {
+	.dd-1, .dd-2, .dd-3, .dd-4, .dd-5, .dd-6, .dd-7, .dd-8, .dd-9, .dd-10, .dd-11, .dd-12{
+         float: left;
+	}
+	.dd-1{
+		width: 8.33%;
+	}
+	.dd-2{
+		width: 16.66%;
+	}
+	.dd-3{
+		width: 25%;
+	}
+	.dd-4{
+		width: 33%;
+	}
+	.dd-5{
+		width: 41.66%;
+	}
+	.dd-6{
+		width: 50%;
+	}
+	.dd-7{
+		width: 58.33%;
+	}
+	.dd-8{
+		width: 66.66%;
+	}
+	.dd-9{
+		width: 74.99%;
+	}
+	.dd-10{
+		width: 83.33;
+	}
+	.dd-11{
+		width:91.66;
+	}
+	.dd-12{
+		width:100;
+	}
+}
+/***** Tablet devices only *****/
+@media (min-width: 768px) and (min-width: 991px){
+	.td-1, .td-2, .td-3, .td-4, .td-5, .td-6, .td-7, .td-8, .td-9, .td-10, .td-11, .td-12{
+         float: left;
+	}
+	.td-1{
+		width: 8.33%;
+	}
+	.td-2{
+		width: 16.66%;
+	}
+	.td-3{
+		width: 25%;
+	}
+	.td-4{
+		width: 33%;
+	}
+	.td-5{
+		width: 41.66%;
+	}
+	.td-6{
+		width: 50%;
+	}
+	.td-7{
+		width: 58.33%;
+	}
+	.td-8{
+		width: 66.66%;
+	}
+	.td-9{
+		width: 74.99%;
+	}
+	.td-10{
+		width: 83.33;
+	}
+	.td-11{
+		width:91.66;
+	}
+	.td-12{
+		width:100;
+	}
+}
+/***** Mobile devices only *****/
+@media (max-width: 767px) {
+	.md-1, .md-2, .md-3, .md-4, .md-5, .md-6, .md-7, .md-8, .md-9, .md-10, .md-11, .md-12{
+         float: left;
+	}
+	.md-1{
+		width: 8.33%;
+	}
+	.md-2{
+		width: 16.66%;
+	}
+	.md-3{
+		width: 25%;
+	}
+	.md-4{
+		width: 33%;
+	}
+	.md-5{
+		width: 41.66%;
+	}
+	.md-6{
+		width: 50%;
+	}
+	.md-7{
+		width: 58.33%;
+	}
+	.md-8{
+		width: 66.66%;
+	}
+	.md-9{
+		width: 74.99%;
+	}
+	.md-10{
+		width: 83.33;
+	}
+	.md-11{
+		width:91.66;
+	}
+	.md-12{
+		width:100;
+	}
+}
+</style>
+</head>
+<body>
+	<h1>HTML, CSS AND JS WEB DEVELOPMENT </h1>
+	<div class="row">
+		<div class="dd-1 td-3 md-6"><p>Chocolate</p></div>
+		<div class="dd-1 td-3 md-6"><p>Burger</p></div>
+        <div class="dd-1 td-3 md-6"><p>Pizza</p></div>
+	</div>
+</body>
+</html>
